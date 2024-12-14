@@ -160,3 +160,134 @@ archive.zip
 
 # macOS
 .DS_Store
+
+
+
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude all .tfvars files, which are likely to contain sensitive data, such as
+# password, private keys, and other secrets. These should not be part of version 
+# control as they are data points which are potentially sensitive and subject 
+# to change depending on the environment.
+*.tfvars
+*.tfvars.json
+
+# Ignore override files as they are usually used to override resources locally and so
+# are not checked in
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore transient lock info files created by terraform apply
+.terraform.tfstate.lock.info
+
+# Include override files you do wish to add to version control using negated pattern
+# !example_override.tf
+
+# Include tfplan files to ignore the plan output of command: terraform plan -out=tfplan
+# example: *tfplan*
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+*.key
+*.keys
+*.priv
+*.rsa
+*.key.json
+
+.env
+.env.production
+*.ssh
+*.ssh-key
+
+.key-mrc
+
+## Certificate Authority
+*.ca
+
+## Certificate
+*.crt
+
+## Certificate Sign Request
+*.csr
+
+## Certificate
+*.der 
+
+## Key database file
+*.kdb
+
+## OSCP request data
+*.org
+
+## PKCS #12
+*.p12
+
+## PEM-encoded certificate data
+*.pem
+
+## Random number seed
+*.rnd
+
+## SSLeay data
+*.ssleay
+
+## S/MIME message
+*.smime
+
+# Ignore all SSH key files
+*.pem
+*.key
+*.pub
+
+# Ignore specific private and public key files
+private.key
+public.key
+
+# Ignore OpenSSL key and certificate files
+*.crt
+*.csr
+*.der
+*.p12
+*.pfx
+
+# Ignore PGP key files
+*.asc
+*.gpg
+*.kbx
+*.sig
+
+# Ignore other key or certificate file extensions that might be used
+*.enc
+*.cer
+*.keyfile
+*.jks
+*.p7b
+*.p7c
+*.keystore
+
+# Optionally, ignore any file that might contain keys
+*.secret
+*.vault
+*.json.secret
+*.env.secret
+*.secrets
+
+# Ignore specific files often used in cloud services
+credentials
+
+# Private keys
+localkey
+vpc_ec2
