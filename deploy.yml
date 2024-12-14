@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: fastapi-container
-          image: your-docker-repo/fastapi-app:latest  # Replace with your actual image
+          image: paras74569/delhivery  # Replace with your actual image
           ports:
             - containerPort: 8000
           env:
